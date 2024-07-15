@@ -1,0 +1,23 @@
+{
+    "name": "nilsonpessim/whaticket-api",
+    "description": "Whaticket WhatsApp API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Nilsonpessim\\ApiConnect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nilson de Andrade Pessim",
+            "email": "nilson@techlabs.net.br",
+            "homepage": "https://techlabs.net.br",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "7.8.*"
+    }
+}
